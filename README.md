@@ -95,3 +95,15 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 - 現在、1回の実行で1つの画像ファイルのみ処理可能です
 - ネットワーク共有パスは環境に合わせて変更してください
 - Dドライブへのインストールを前提としていますが、パスを変更することで他の場所にも対応可能です
+
+## 関連リンク
+
+**Tesseract OCR** はGoogleが開発したオープンソースのOCR（Optical Character Recognition）エンジンです。100以上の言語に対応しており、画像やPDFからテキストを高精度で抽出することができます。無料で利用でき、商用利用も可能です。
+
+**トレーニング済み言語データ（Trained Data）** は、Tesseractが各言語の文字を認識するために必要な学習済みデータファイル（.traineddata）です。このデータファイルをtessdataフォルダに配置することで、対応する言語でのOCR処理が可能になります。日本語の場合は`jpn.traineddata`が必要です。
+
+- **Tesseract OCR 公式サイト**: https://tesseractocr.org/
+- **Tesseract OCR ダウンロードページ（Windows版）**: https://github.com/UB-Mannheim/tesseract/wiki
+- **Tesseract OCR ドキュメント**: https://tesseract-ocr.github.io/tessdoc/
+- **トレーニング済み言語データダウンロード（GitHub）**: https://github.com/tesseract-ocr/tessdata
+- **言語データファイルの詳細**: https://tesseract-ocr.github.io/tessdoc/Data-Files.html
