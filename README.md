@@ -114,3 +114,5 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 - **Tesseract OCR ドキュメント**: https://tesseract-ocr.github.io/tessdoc/
 - **トレーニング済み言語データダウンロード（GitHub）**: https://github.com/tesseract-ocr/tessdata
 - **言語データファイルの詳細**: https://tesseract-ocr.github.io/tessdoc/Data-Files.html
+
+このREADME.mdはdevinに作成したものを主が確認・修正したものです。
